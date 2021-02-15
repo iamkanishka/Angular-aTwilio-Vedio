@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TwilioRoomComponent } from './twilio-room/twilio-room.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TwilioRoomComponent
   ],
   imports: [
     BrowserModule,
