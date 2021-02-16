@@ -15,9 +15,6 @@ export class TwilioRoomComponent implements OnInit {
   roomName : string="vediochat";
   accessToken :string= "df90b3bf5cfd73104e657a7a42401127";
 
-  // readonly accountSid = "AC6fef7014632b1496306b57fda05b3658";
-  // readonly authToken = "df90b3bf5cfd73104e657a7a42401127";
-
 
   @ViewChild('localVideo', {read: ElementRef}) localVideo!  : ElementRef;
   @ViewChild('remoteVideo', {read: ElementRef}) remoteVideo! : ElementRef;
